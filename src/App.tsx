@@ -132,3 +132,14 @@ console.log(calculateWeight)
 }
 
 export default App
+
+//Literal Types is a way here variable has exact value in below code quanity must be 50 or 100. it can be number or string.
+type Quantity = 50 | 100;
+ let value : Quantity = 50 ;
+
+ console.log(value);
+
+ type Animal = "cat" | "dog";
+ let ss : Animal = 'cat';
+
+ console.log(ss)
